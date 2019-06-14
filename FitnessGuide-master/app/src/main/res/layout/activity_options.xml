@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/letsstart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:background="@color/colorTextHint"
+        android:text="Let's Run" />
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/gotodiet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:background="@color/colorTextHint"
+        android:text="Go to Diet Page" />
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/workout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:background="@color/colorTextHint"
+        android:text="Workout Page" />
+
+</LinearLayout>
